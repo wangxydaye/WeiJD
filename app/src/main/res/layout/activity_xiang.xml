@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.XiangActivity"
+    android:id="@+id/activity_add"
+    android:orientation="vertical">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="300dp"
+        android:id="@+id/xqsdv1"
+        android:layout_gravity="center"
+        android:layout_height="300dp" />
+    <TextView
+        android:id="@+id/tvtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系卖家"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="店铺"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:background="#ff00"
+            android:id="@+id/tianjia1"
+            android:layout_weight="1"
+            android:text="添加到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
